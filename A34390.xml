@@ -1,0 +1,733 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Convert Scot and apostate English</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A34390</idno>
+            <idno type="STC">Wing C5982</idno>
+            <idno type="STC">ESTC R29692</idno>
+            <idno type="EEBO-CITATION">11192670</idno>
+            <idno type="OCLC">ocm 11192670</idno>
+            <idno type="VID">46657</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A34390)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46657)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1438:34)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Convert Scot and apostate English</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for A.B.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1681.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>In verse.</note>
+                  <note>Reproduction of the original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church and state --  Great Britain --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-07</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:46657:1"/>
+            <pb n="1" facs="tcp:46657:1"/>
+            <head>THE Convert SCOT, AND <hi>Apoſtate Engliſh.</hi>
+            </head>
+            <lg n="1">
+               <head>1.</head>
+               <l>
+                  <hi>CLeveland;</hi> thy Aſhes (ſure) will Riſe:</l>
+               <l>The <hi>Scots,</hi> are Proſelites become,</l>
+               <l>Here were thoſe Rebels in Diſguiſe;</l>
+               <l>And now thou wouldſt reverſe their Doom.</l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>'Twas our <hi>Fanatick Presbyter,</hi>
+               </l>
+               <l>The Devils Factors made the <hi>Plot,</hi>
+               </l>
+               <l>By them miſled, the <hi>Scots</hi> did Erre;</l>
+               <l>Which then thou call'dſt, <hi>Apoſtrate Scot.</hi>
+               </l>
+            </lg>
+            <lg n="3">
+               <head>3.</head>
+               <l>The Proverb; <hi>From the</hi> North <hi>no Good,</hi>
+               </l>
+               <l>Is now turn'd <hi>South,</hi> where Perjur'd Slaves</l>
+               <l>Swear us to Gaols; and in a Flood</l>
+               <l>of Butchery, ſcarce give us Graves.</l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>The Damned Crew of Angels Fall,</l>
+               <l>Whoſe Pride firſt mov'd them to Rebel,</l>
+               <l>But You Incarnate, worſt of all,</l>
+               <l>Through Malice, God and Man would Sell.</l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>Devil to Devils all were True,</l>
+               <l>But Man to Man, no Thought can reach,</l>
+               <l>Nature, would ceaſe to be, if You</l>
+               <l>Might cut off all you would Impeach.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>The Laws conſtructiondoth lye</l>
+               <l>In Judges Breaſts; the Letter Kills;</l>
+               <l>Juſtice, ſuch Evidence throws by,</l>
+               <l>Whoſe Lives are Infamous for Ills.</l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>There's ſeven of them, and ſeven more,</l>
+               <l>Have Covenanted all with Hell,</l>
+               <l>To make ſeven Deadly Sins their Whore;</l>
+               <l>None ever knew her half ſo well.</l>
+            </lg>
+            <lg n="8">
+               <pb n="2" facs="tcp:46657:2"/>
+               <head>8.</head>
+               <l>Theſe Villains charge themſelves with Crimes</l>
+               <l>They have not done; Damn'd Policy!</l>
+               <l>That what they Swear at other Times</l>
+               <l>May be Believ'd, though Perjury!</l>
+            </lg>
+            <lg n="9">
+               <head>9.</head>
+               <l>To which a Pardon being had,</l>
+               <l>Then Hang who e're they will Accuſe;</l>
+               <l>And make the Raging Rabble mad,</l>
+               <l>When any man for Juſtice Sues.</l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>Reaſon is Witchcraft; or elſe why</l>
+               <l>Can any man of Senſe believe</l>
+               <l>Such Basket-Crew, e're came ſo nigh</l>
+               <l>To Courts and Councils to deceive.</l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>Commiſſions, Armies, Fleets, and <hi>France,</hi>
+               </l>
+               <l>All this Intrigue diſcover'd by</l>
+               <l>
+                  <hi>O—, B—, D—, D—</hi> and <hi>P—,</hi>
+               </l>
+               <l>Who can believe ſo ſtrange a Lye?</l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>Did ever men Sell their belief</l>
+               <l>To Gaols and Pillories? who yet</l>
+               <l>Gives Credit to a Common Thief,</l>
+               <l>Or Branded Rogue on miſchief ſet?</l>
+            </lg>
+            <lg n="13">
+               <head>13.</head>
+               <l>Plague of the Innocent, the Nations Curſe,</l>
+               <l>The hand of Heaven will cut down;</l>
+               <l>Since God made Man, none ever worſe,</l>
+               <l>Pretended yet to ſave a Crown.</l>
+            </lg>
+            <lg n="14">
+               <head>14.</head>
+               <l>But theſe the Vulgar Hireling Slaves,</l>
+               <l>The <hi>Baſhaws</hi> uſe, to ſtorm their Works,</l>
+               <l>And raiſe themſelves upon their Graves,</l>
+               <l>Such are our <hi>Engliſh</hi> (Nobles) <hi>Turks.</hi>
+               </l>
+            </lg>
+            <lg n="15">
+               <head>15.</head>
+               <l>Juſtice awake, <hi>Scroggs</hi> ſit thou faſt,</l>
+               <l>Thou wert o'r-rul'd by Perjuries:</l>
+               <l>But <hi>Langhorn</hi>'s Caſe urges thy haſt,</l>
+               <l>To cleer Fair Truth from Forgeries.</l>
+            </lg>
+            <lg n="16">
+               <head>16.</head>
+               <l>Now Undeceived, be Juſt and Bold,</l>
+               <l>You dare enough, do then as well,</l>
+               <l>And growing Good, as you grow Old,</l>
+               <l>Ages to come your Juſtice tell.</l>
+            </lg>
+            <lg n="17">
+               <head>17.</head>
+               <l>Our Laws are founded, or ſhould be,</l>
+               <l>On Laws of God, <hi>Who never Kill</hi>
+               </l>
+               <l>
+                  <hi>When they can Save;</hi> and yet you ſee</l>
+               <l>How Blood of Innocents we Spill.</l>
+            </lg>
+            <lg n="18">
+               <pb n="3" facs="tcp:46657:2"/>
+               <head>18.</head>
+               <l>The Law Condemns a <hi>Prieſt</hi> to Die,</l>
+               <l>But Supream Law commands them ſo,</l>
+               <l>
+                  <hi>That for their Lives they muſt not Flie;</hi>
+               </l>
+               <l>One of the two they muſt forego.</l>
+            </lg>
+            <lg n="19">
+               <head>19.</head>
+               <l>Our Faith in many points agree,</l>
+               <l>Our Birth-rights we may claim of old;</l>
+               <l>What is it then to any he</l>
+               <l>If Ancient Verity I hold.</l>
+            </lg>
+            <lg n="20">
+               <head>20.</head>
+               <l>Likely, You Erre, for upward look,</l>
+               <l>What Ages paſt believed as I,</l>
+               <l>And nearer to the Spring; the Brook</l>
+               <l>Far diſtant, doth in Puddles die:</l>
+               <l>If at the Fount, I Drink or Waſh,</l>
+               <l>The Chriſtal Spring hath us'd no daſh.</l>
+            </lg>
+            <lg n="21">
+               <head>21.</head>
+               <l>Hath Charity deſerv'd to Die,</l>
+               <l>Our Saviour Suffered for that;</l>
+               <l>We ſometimes Kill an Enemy,</l>
+               <l>Not Murther Friends for none knows what.</l>
+            </lg>
+            <lg n="22">
+               <head>22.</head>
+               <l>Our Laws receive their force from Power,</l>
+               <l>And the Offenders Forfeit Life;</l>
+               <l>Here 'tis, where Law doth Law devour,</l>
+               <l>And why, ſuch Law, would end the Strife?</l>
+            </lg>
+            <lg n="23">
+               <head>23.</head>
+               <l>Men long in Peace, deſerving well</l>
+               <l>From King and Country, now ſurpriz'd,</l>
+               <l>And Charg'd with Crimes, no Age can tell,</l>
+               <l>But thoſe who have this Plot devis'd.</l>
+            </lg>
+            <lg n="24">
+               <head>24.</head>
+               <l>Now worthy <hi>Scroggs,</hi> your Brethren too;</l>
+               <l>Unbyaſſ'd, let your Judgments fall;</l>
+               <l>We dare the World, what they can do,</l>
+               <l>May we have Juſtice, when we call.</l>
+            </lg>
+            <lg n="25">
+               <head>25.</head>
+               <l>O! <hi>Cleavland,</hi> hadſt thou lived this Age,</l>
+               <l>Thou couldſt not Write, unleſs to Lie;</l>
+               <l>For none but Devils Tredd our Stage:</l>
+               <l>Where ſpeaking Truth, you ſurely Die</l>
+               <l>For publick Good or <hi>Popery.</hi>
+               </l>
+            </lg>
+            <lg n="26">
+               <head>26.</head>
+               <l>A King to Govern, or elſe none,</l>
+               <l>A <hi>Linſey-woolſey</hi> Government;</l>
+               <l>'Tis Rabble-property they owne,</l>
+               <l>And ſay 'tis Law, or ſo 'tis mean<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</l>
+            </lg>
+            <lg n="27">
+               <pb n="4" facs="tcp:46657:3"/>
+               <head>27.</head>
+               <l>They ſtalk with one, Ambitions Fool,</l>
+               <l>Affecting Popularity;</l>
+               <l>Make uſe of Him as a Cloſe-ſtool,</l>
+               <l>Firſt fill Him up, then throw Him by.</l>
+            </lg>
+            <lg n="28">
+               <head>28.</head>
+               <l>The Monſter <hi>Mobile,</hi> then Roars,</l>
+               <l>Prepar'd by 'th Mountebank of State,</l>
+               <l>Wee'l have no Fools, nor Sons of Whores,</l>
+               <l>A Commonwealth ſhall end their Date.</l>
+            </lg>
+            <lg n="29">
+               <head>29.</head>
+               <l>Nor King, nor Parliament, nor Laws,</l>
+               <l>Kill all Pretenders to the Crown;</l>
+               <l>Nor Lords, nor Biſhops; thoſe py'd Daws,</l>
+               <l>With all Adherents ſhall go down.</l>
+            </lg>
+            <lg n="30">
+               <head>30.</head>
+               <l>Then up go we, wee'l ſhare the Land;</l>
+               <l>Too long they have uſurp'd our Right:</l>
+               <l>And now by turns, wee'l all Command,</l>
+               <l>And ſhow the World our laſt New-light.</l>
+            </lg>
+            <lg n="31">
+               <head>31.</head>
+               <l>Are we not good as Fiſher-men?</l>
+               <l>Our <hi>Hogon-Mogon</hi> Neighbours now,</l>
+               <l>They were call'd Traytors; and what then?</l>
+               <l>Their King that was, now them allow.</l>
+            </lg>
+            <lg n="32">
+               <head>32.</head>
+               <l>They did Reform, it thriv'd, So good,</l>
+               <l>God did intend what they ſhould be;</l>
+               <l>They were inforc'd to let ſome Blood</l>
+               <l>(As We) to purge Idolatry.</l>
+            </lg>
+            <lg n="33">
+               <head>33.</head>
+               <l>Your Elders Laws, have that vaſt ſcope,</l>
+               <l>Preliminary to all Power;</l>
+               <l>Each in his Pariſh would be <hi>Pope,</hi>
+               </l>
+               <l>Like <hi>Baal</hi>'s Prieſts all things Devour.</l>
+            </lg>
+            <lg n="34">
+               <head>34.</head>
+               <l>Theſe are your Saintſhips Rules of State,</l>
+               <l>And <hi>Lucifer</hi> hath Lectur'd you;</l>
+               <l>All above you, ye Deadly hate,</l>
+               <l>And would not God ſhould have his due.</l>
+            </lg>
+            <lg n="35">
+               <head>35.</head>
+               <l>Muſt ſtill the Van, <hi>Religion,</hi>
+               </l>
+               <l>Led on by Lies, and falſe pretence,</l>
+               <l>Bring up the Rear, <hi>Rebellion;</hi>
+               </l>
+               <l>And blind our Reaſon without Senſe.</l>
+            </lg>
+            <lg n="36">
+               <head>36.</head>
+               <l>Set up an Idol-Parliament,</l>
+               <l>Which with Falſe Worſhip men adore,</l>
+               <l>As if <hi>Religion</hi> were meant,</l>
+               <l>The Houſe of Commons, Common-whore.</l>
+            </lg>
+            <lg n="37">
+               <pb n="5" facs="tcp:46657:3"/>
+               <head>37.</head>
+               <l>The ſlights of <hi>Hocus</hi> not ſo plain,</l>
+               <l>Though Cheat our ſight, yet none believe,</l>
+               <l>But <hi>Hocus</hi> ſtill he doth remain,</l>
+               <l>Through fine Conveyance in his Sleeve.</l>
+            </lg>
+            <lg n="38">
+               <head>38.</head>
+               <l>Thus Captain <hi>Sathan</hi> leads you on;</l>
+               <l>Your Pride and Malice makes you Swell,</l>
+               <l>Then Captain leaves ye all alone,</l>
+               <l>You'l find the way your ſelves to Hell.</l>
+            </lg>
+            <lg n="39">
+               <head>39.</head>
+               <l>Damn'd Hypocrites, Rebellious Race,</l>
+               <l>In Power Impudent and Bold;</l>
+               <l>Pale Whining Cowards, Face to Face</l>
+               <l>Your God and Hopes lyes in your Gold.</l>
+            </lg>
+            <lg n="40">
+               <head>40.</head>
+               <l>Short-ſighted Fools, can your baſe Coin</l>
+               <l>Corrupt that God who Kings protects,</l>
+               <l>Or ſuffer you to break that Line,</l>
+               <l>Which he hath made, and ſtill directs.</l>
+            </lg>
+            <lg n="41">
+               <head>41.</head>
+               <l>'Tis not to caſt down <hi>Popery.</hi>
+               </l>
+               <l>But by your Counterfeited Zeal;</l>
+               <l>To raiſe <hi>New-Englands</hi> Anarchy,</l>
+               <l>Devolving to a Commonweal.</l>
+            </lg>
+            <lg n="42">
+               <head>42.</head>
+               <l>Too long on Caterpillers, I</l>
+               <l>Digreſſion make; but now to Men</l>
+               <l>Whoſe Honour, in Antiquity</l>
+               <l>Deſerves to be reviv'd again.</l>
+            </lg>
+            <lg n="43">
+               <head>43.</head>
+               <l>Religion early there Imbrac'd</l>
+               <l>By Race of Kings, Chriſtians bold,</l>
+               <l>Brave men at Arms, and not debas'd;</l>
+               <l>And now this Age revives the Old.</l>
+            </lg>
+            <lg n="44">
+               <head>44.</head>
+               <l>How Sweet blows the <hi>Northern</hi> Air,</l>
+               <l>Diſpelling Miſts, and no Clouds there;</l>
+               <l>The Rebel Covenant waſhed Fair,</l>
+               <l>No thoughts againſt Apparent Heir.</l>
+            </lg>
+            <lg n="45">
+               <head>45.</head>
+               <l>Brave <hi>Scots</hi> go on, a Braver man</l>
+               <l>Ne're wanted yet Protection</l>
+               <l>Then our Great Duke of <hi>York;</hi> what can</l>
+               <l>But this, Merit Oblivion?</l>
+               <l>All that is paſt of Guilty fact,</l>
+               <l>Lies buried here, in this one Act.</l>
+            </lg>
+            <lg n="46">
+               <pb n="6" facs="tcp:46657:4"/>
+               <head>46.</head>
+               <l>None live Unblemiſh'd, or who not deceiv'd,</l>
+               <l>Who ever Truſts unhappily,</l>
+               <l>May erre; If none muſt be believ'd,</l>
+               <l>We muſt forſake Society.</l>
+            </lg>
+            <lg n="47">
+               <head>47.</head>
+               <l>Frailties to all men are allow'd;</l>
+               <l>We Plume not here on Angels Wings;</l>
+               <l>The weak or fearful in a Cloud,</l>
+               <l>Cannot diſtinguiſh beſt of Things.</l>
+            </lg>
+            <lg n="49">
+               <head>49.</head>
+               <l>Repentance wipes out Blackeſt Spots,</l>
+               <l>If ye relapſe, y'are ſick to death,</l>
+               <l>Be henceforth call'd the <hi>Convert-Scots,</hi>
+               </l>
+               <l>This Covenant ſign now with your Breath.</l>
+            </lg>
+            <lg n="50">
+               <head>50.</head>
+               <l>A Glorious occaſion now</l>
+               <l>Courts ye, with opportunity:</l>
+               <l>Let after-ages ſay of you,</l>
+               <l>When all men fail'd us, you ſtood by.</l>
+            </lg>
+            <lg n="51">
+               <head>51.</head>
+               <l>Your King, your Country, all their Friends</l>
+               <l>now need your Duty, and your Love,</l>
+               <l>Bravely appear, and make amends;</l>
+               <l>Let's Hand in Hand together move.</l>
+            </lg>
+            <lg n="52">
+               <head>52.</head>
+               <l>Down with your <hi>Kirk-Rooſt,</hi> Curb them ſo</l>
+               <l>They cannot hurt; take Sword in Hand,</l>
+               <l>Defend your King from Inbred Foe.</l>
+               <l>And <hi>York</hi> Conduct you in Command.</l>
+            </lg>
+            <lg n="53">
+               <head>53.</head>
+               <l>The Law of Nature binds Mankind,</l>
+               <l>And that Religion is true,</l>
+               <l>To give and take, with equal mind,</l>
+               <l>To God and <hi>Caeſar</hi> what is due.</l>
+            </lg>
+            <lg n="54">
+               <head>54.</head>
+               <l>Rouſe then Brave men, let the World ſee,</l>
+               <l>What you dare do for Royal Blood;</l>
+               <l>Your Lives and Country are not free;</l>
+               <l>'Leſs you maintain Monarchy Good.</l>
+            </lg>
+            <lg n="54">
+               <head>54.</head>
+               <l>But if ye fail, all Good mens Curſe</l>
+               <l>On you and your Poſterity:</l>
+               <l>May ye be Slaves, and what is worſe.</l>
+               <l>Beg Bread of your <hi>Presbytery.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="7" facs="tcp:46657:4"/>
+            <head>A Poſtſcript upon the D. of <hi>Y</hi>'s. Re<g ref="char:EOLhyphen"/>turn to <hi>Scotland.</hi>
+            </head>
+            <lg>
+               <l>
+                  <hi>NOw</hi> York <hi>again Shines in your Sphere,</hi>
+               </l>
+               <l>
+                  <hi>A Conſtant Day-light, true born Son;</hi>
+               </l>
+               <l>
+                  <hi>Which doth forebode a Happy Year,</hi>
+               </l>
+               <l>
+                  <hi>Now finiſh what you have begun.</hi>
+               </l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>
+                  <hi>If your wild Spiritiſts, poſſeſt</hi>
+               </l>
+               <l>
+                  <hi>With Helliſh Principles Rebel,</hi>
+               </l>
+               <l>
+                  <hi>And againſt Legal Power proteſt,</hi>
+               </l>
+               <l>
+                  <hi>Send them the ſhorteſt way to Hell.</hi>
+               </l>
+            </lg>
+            <lg n="3">
+               <head>3.</head>
+               <l>
+                  <hi>For ſpeedy Juſtice in a Storm,</hi>
+               </l>
+               <l>
+                  <hi>And Mutiny more Souls doth Save,</hi>
+               </l>
+               <l>
+                  <hi>Then ſlow Proceeding by Laws Form,</hi>
+               </l>
+               <l>
+                  <hi>Loſt time, a Maſter's made a Slave.</hi>
+               </l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>
+                  <hi>Examples made to terrifie,</hi>
+               </l>
+               <l>
+                  <hi>Makes men conſider what they do;</hi>
+               </l>
+               <l>
+                  <hi>Where no Reprieve is, but muſt Die,</hi>
+               </l>
+               <l>
+                  <hi>Men are unapt t'engage that Foe.</hi>
+               </l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>
+                  <hi>Let your Great Council make an Act,</hi>
+               </l>
+               <l>
+                  <hi>And by that Act all Subjects Bind,</hi>
+               </l>
+               <l>
+                  <hi>To take an Oath, or elſe be Rackt,</hi>
+               </l>
+               <l>
+                  <hi>Till the Succeſſion they have Sign'd.</hi>
+               </l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>
+                  <hi>Our Lofty Shrubbs rais'd by the King,</hi>
+               </l>
+               <l>
+                  <hi>That on his Seat, Juſtice Out-face,</hi>
+               </l>
+               <l>
+                  <hi>Muſt tumble down, that no ſuch thing</hi>
+               </l>
+               <l>
+                  <hi>Be ever named; but with Diſgrace.</hi>
+               </l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>
+                  <hi>Ingrateful Brutes, baſer then Slaves,</hi>
+               </l>
+               <l>
+                  <hi>The fallen Angels is your ſin,</hi>
+               </l>
+               <l>
+                  <hi>Who for your Makers do dig Graves;</hi>
+               </l>
+               <l>
+                  <hi>But in thoſe Pits your ſelves fall in.</hi>
+               </l>
+            </lg>
+            <lg n="8">
+               <pb n="8" facs="tcp:46657:5"/>
+               <head>8.</head>
+               <l>
+                  <hi>Fooliſh</hi> Achitophels; <hi>his Fate</hi>
+               </l>
+               <l>
+                  <hi>Follows your Steps, and you muſt Die</hi>
+               </l>
+               <l>
+                  <hi>For the ſame Cauſe, and at the Gate,</hi>
+               </l>
+               <l>
+                  <hi>Where</hi> Treaſon<hi>'s joyn'd with</hi> Perjury.</l>
+            </lg>
+            <lg n="9">
+               <head>9.</head>
+               <l>
+                  <hi>The</hi> Proteſtant <hi>Religion</hi>
+               </l>
+               <l>
+                  <hi>Is the falſe cry, and common Cheat</hi>
+               </l>
+               <l>
+                  <hi>Of all your</hi> Atheiſm; <hi>who have none,</hi>
+               </l>
+               <l>
+                  <hi>Nor will, till brought to Judgment Seat.</hi>
+               </l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>
+                  <hi>There by Confeſsion, purge your Guilt,</hi>
+               </l>
+               <l>
+                  <hi>Mercy may meet you at the Stage,</hi>
+               </l>
+               <l>
+                  <hi>Tell</hi> Godfrey<hi>'s Death, and what Bloods Spilt</hi>
+               </l>
+               <l>
+                  <hi>By your Deſigns, and peoples Rage.</hi>
+               </l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>
+                  <hi>Then, not till then, three Kingdoms may,</hi>
+               </l>
+               <l>
+                  <hi>In Unity give Praiſe to God;</hi>
+               </l>
+               <l>
+                  <hi>And all good men rejoyce, and ſay,</hi>
+               </l>
+               <l>Charles's <hi>Scepter is like</hi> Aarons <hi>Rod.</hi>
+               </l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>
+                  <hi>Then all True Subjects will obey,</hi>
+               </l>
+               <l>
+                  <hi>The wild</hi> Fanaticks <hi>will Conform;</hi>
+               </l>
+               <l>
+                  <hi>Then all the World with us will ſay,</hi>
+               </l>
+               <l>
+                  <hi>God Sav'd us in a mighty Storm.</hi>
+               </l>
+            </lg>
+            <lg n="13">
+               <head>13.</head>
+               <l>
+                  <hi>If you deny, all thinking Men</hi>
+               </l>
+               <l>
+                  <hi>Conclude an Arbitrary Power,</hi>
+               </l>
+               <l>
+                  <hi>Deſign'd by You, to ſave you, when</hi>
+               </l>
+               <l>
+                  <hi>Y'are no where Safe but in the</hi> Tower.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>London,</hi> Printed for <hi>A. B.</hi> 1681.</p>
+            <pb facs="tcp:46657:5"/>
+         </div>
+      </back>
+   </text>
+</TEI>
